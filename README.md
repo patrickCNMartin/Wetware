@@ -4,20 +4,20 @@ Protocol lineage and sample provenance for all datasets entering computational a
 
 ## Structure
 
+Wetware
+├── datasets
+├── export
+├── protocols
+├── README.md
+├── samples
+└── SOPs
+
 | Folder | Contents |
 |--------|---------|
+| `datasets` | Place holder for data location links - no data will ever be uploaded here |
+| `exports` | Protocol version extraction and encapsulation - works in parallel to Library exports|
 | `protocols/` | Versioned experimental protocols (immutable once linked) |
-| `samples/` | Sample metadata, conditions, QC |
-| `datasets/` | Dataset-level provenance — links protocols + samples → EXP-IDs |
+| `samples/` | Sample metadata, conditions, QC templates |
 | `SOPs/` | Standard operating procedures (step-by-step, for wet lab team) |
 
-## Protocol version convention
 
-`{protocol-name}_v{MAJOR}.{MINOR}_{YYYY-MM}`
-
-Never edit a version file once it has been linked from a Dataset. Create a new version.
-
-## Dataset ID convention
-
-`DATASET-{PROJECT_SLUG}-{YYYYMMDD}-{NNN}` or use PI-assigned IDs if provided.
-# Wetware
