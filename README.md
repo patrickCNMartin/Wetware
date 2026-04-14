@@ -4,6 +4,7 @@ Protocol lineage and sample provenance for all datasets entering computational a
 
 ## Structure
 
+```text
 Wetware/
 ├── datasets/
 ├── export/
