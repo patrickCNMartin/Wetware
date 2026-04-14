@@ -1,0 +1,17 @@
+# --- GLOBAL LOCKDOWN ---
+*
+!*/
+!.gitignore
+
+# --- WHITELIST LIGHTWEIGHT ASSETS ---
+!*.md
+!*.sh
+!*.nix
+!*.yaml
+!*.json
+!*.txt
+!*.pdf
+!*.docx
+!*.csv
+!*.tsv
+
