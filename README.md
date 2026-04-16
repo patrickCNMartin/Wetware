@@ -1,6 +1,7 @@
 # Wet Lab
 
-Protocol lineage and sample provenance for all datasets entering computational analysis.
+Protocol lineage and sample provenance for all datasets entering computational analysis. The goal is to have a set of protocols that I can use
+as templates to run declaratuve biology.
 
 ## Structure
 
